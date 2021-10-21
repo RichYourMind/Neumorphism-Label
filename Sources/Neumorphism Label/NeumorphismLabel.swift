@@ -163,8 +163,6 @@ open class NeumorphismLabel: UIView {
         secondInnerShadowView.layer.shadowRadius = innerShadowRadius
         secondInnerShadowView.layer.shadowPath = secondInnerPath.cgPath
         secondInnerShadowView.layer.shadowOffset = .zero
-        
-
     }
     
     
