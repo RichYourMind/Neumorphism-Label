@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NeumorphismLabel" customModule="Neumorphism_Label">
+            <connections>
+                <outlet property="boxView" destination="Afl-u8-0s7" id="h6D-gy-Wy5"/>
+                <outlet property="containerView" destination="F6o-xX-W6Y" id="PgZ-ZM-lLe"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="8sd-1Q-9fH"/>
+                <outlet property="firstOutterShadowView" destination="6Jn-cx-UUO" id="Nr5-8e-MkW"/>
+                <outlet property="secondOutterShadowView" destination="CbD-c4-Pfg" id="9Qf-Qf-h7C"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afl-u8-0s7">
+                    <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Jn-cx-UUO">
+                            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                            <color key="backgroundColor" red="0.90980392156862744" green="0.9137254901960784" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CbD-c4-Pfg">
+                            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                            <color key="backgroundColor" red="0.90980392160000001" green="0.91372549020000005" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </view>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6o-xX-W6Y">
+                            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                            <color key="backgroundColor" red="0.90980392160000001" green="0.91372549020000005" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="F6o-xX-W6Y" firstAttribute="leading" secondItem="Afl-u8-0s7" secondAttribute="leading" id="58l-Hj-Cwn"/>
+                        <constraint firstItem="6Jn-cx-UUO" firstAttribute="leading" secondItem="Afl-u8-0s7" secondAttribute="leading" id="Afy-aB-0IF"/>
+                        <constraint firstAttribute="bottom" secondItem="CbD-c4-Pfg" secondAttribute="bottom" id="GhP-PL-vm8"/>
+                        <constraint firstItem="F6o-xX-W6Y" firstAttribute="top" secondItem="Afl-u8-0s7" secondAttribute="top" id="Gwf-s2-Ln1"/>
+                        <constraint firstAttribute="bottom" secondItem="6Jn-cx-UUO" secondAttribute="bottom" id="IaG-Xc-B2o"/>
+                        <constraint firstItem="CbD-c4-Pfg" firstAttribute="leading" secondItem="Afl-u8-0s7" secondAttribute="leading" id="Jan-wc-ukB"/>
+                        <constraint firstAttribute="bottom" secondItem="F6o-xX-W6Y" secondAttribute="bottom" id="LIB-zl-Flw"/>
+                        <constraint firstAttribute="trailing" secondItem="6Jn-cx-UUO" secondAttribute="trailing" id="TiG-2g-EDR"/>
+                        <constraint firstAttribute="trailing" secondItem="CbD-c4-Pfg" secondAttribute="trailing" id="VXd-kc-xb6"/>
+                        <constraint firstAttribute="trailing" secondItem="F6o-xX-W6Y" secondAttribute="trailing" id="mQC-6f-3u3"/>
+                        <constraint firstItem="6Jn-cx-UUO" firstAttribute="top" secondItem="Afl-u8-0s7" secondAttribute="top" id="oIM-MH-ra6"/>
+                        <constraint firstItem="CbD-c4-Pfg" firstAttribute="top" secondItem="Afl-u8-0s7" secondAttribute="top" id="pUs-AG-Ior"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Afl-u8-0s7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BSn-r3-1NP"/>
+                <constraint firstAttribute="trailing" secondItem="Afl-u8-0s7" secondAttribute="trailing" id="IRr-9l-Sub"/>
+                <constraint firstItem="Afl-u8-0s7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="d46-w5-ogb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Afl-u8-0s7" secondAttribute="bottom" id="jJs-2r-VuY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-184.05797101449278" y="-123.21428571428571"/>
+        </view>
+    </objects>
+</document>
